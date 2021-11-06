@@ -68,7 +68,7 @@ li a{
 .banner{
     height: 500px;
     width: 100vw;
-    background-color:rgb(204, 230, 255);
+    background-color:#b4d0e7;
 }
 
 .container-banner{
@@ -77,6 +77,11 @@ li a{
     padding-top: 50px;
 }
 
+.container-banner .fas{
+    font-size: 40px;
+    color: black;
+}
+    
 .titolo-banner{
     font-size: 3vw;
 }
@@ -89,7 +94,17 @@ li a{
 
 .testo-banner{
     width: 30%;
+    font-size: 15px;
 }
+
+.testo-banner p{
+    margin-bottom: 20px;
+}
+
+.testo-banner button{
+    margin-bottom: 10px;
+}
+
 .jumbo-banner{
     width: 70%;
 }
@@ -100,5 +115,47 @@ li a{
     top: 0;
     left: 120px;
 }
+
+/* MAIN */
+
+.container-section{
+    width: 70%;
+    margin:auto;
+}
+
+.section1{
+    padding-top:100px;
+}
+.head-section{
+    margin-bottom: 20px;
+}
+
+.head-section h2{
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 15px;
+}
+
+.choice2{
+    margin-left: 30px;
+}
+
+.col-section{
+    float:left;
+    border: solid 1px grey;
+    height: 200px;
+    width: 30%;
+}
+
+.col-section span{
+    text-align: center;
+}
+
+.col-sec2{
+    margin:0% 5%;
+}
+
 
 
