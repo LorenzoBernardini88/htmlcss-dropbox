@@ -9,6 +9,7 @@
 body{
     font-family: 'Roboto',sans-serif;
     font-size: 20px;
+    padding-top: 60px ;
 }
 /* HEADER */
 
@@ -65,13 +66,39 @@ li a{
 
 /* Section BANNER */
 .banner{
-    height: 600px;
+    height: 500px;
     width: 100vw;
     background-color:rgb(204, 230, 255);
 }
 
 .container-banner{
-    width: 90%;
+    width: 80%;
     margin: auto;
+    padding-top: 50px;
 }
+
+.titolo-banner{
+    font-size: 3vw;
+}
+
+.testo-banner,
+.jumbo-banner{
+    float: left;
+    margin-top: 30px;
+}
+
+.testo-banner{
+    width: 30%;
+}
+.jumbo-banner{
+    width: 70%;
+}
+
+.jumbo-banner img{
+    width: 80%;
+    position: relative;
+    top: 0;
+    left: 120px;
+}
+
 
