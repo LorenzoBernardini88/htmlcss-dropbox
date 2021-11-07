@@ -225,13 +225,15 @@ ul li{
 }
 
 /* footer sezione1 */
-/* .contenuto-footer > *{
-    margin: 20px 0px;
-} */
+
 
 .contenuto-footer{
-    margin: 20px;
+    padding: 20px 0px 10px 20px;
     position: relative;
+}
+
+.contenuto-footer h5{
+    margin: 20px 0px 30px 0px
 }
 
 .footer-section{
@@ -243,8 +245,8 @@ ul li{
 .button-footer{
     margin: 0px;
     position: absolute;
-    top: 0px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
 
 }
 
