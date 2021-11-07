@@ -145,7 +145,7 @@ label{
 .col-section{
     float:left;
     border: solid 1px lightgrey;
-    height: 200px;
+    height: 800px;
     width: 30%;
 }
 
@@ -177,6 +177,20 @@ hr{
 
 .col-contenuto ul .fas {
     color:rgb(0, 128, 255);
+}
+
+.col-contenuto{
+    padding: 10px 20px;
+}
+
+.col-contenuto span,
+.col-contenuto p,
+.col-contenuto ul li{
+    font-size: 14px;
+}
+
+.period{
+    color: #85919C;
 }
 
 
