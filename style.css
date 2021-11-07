@@ -144,18 +144,42 @@ label{
 
 .col-section{
     float:left;
-    border: solid 1px grey;
+    border: solid 1px lightgrey;
     height: 200px;
     width: 30%;
 }
 
-.col-section span{
+.col-section .title-section{
     text-align: center;
+    border-bottom: solid 1px lightgrey ;
+    padding:10px 5px;
+    font-size: 15px;
 }
 
 .col-sec2{
     margin:0% 5%;
 }
+
+/* contenuto colonna */
+.col-contenuto > *{
+    display: block;
+    margin: 20px 0px;
+}
+
+.price span{
+    color: grey;
+}
+
+hr{
+    color: lightgrey;
+    width: 25%;
+}
+
+.col-contenuto ul .fas {
+    color:rgb(0, 128, 255);
+}
+
+
 
 
 
