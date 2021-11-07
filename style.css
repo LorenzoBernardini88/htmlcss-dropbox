@@ -145,34 +145,42 @@ label{
 .col-section{
     float:left;
     border: solid 1px lightgrey;
-    height: 800px;
+    height: 1000px;
     width: 30%;
+    
 }
 
-.col-section .title-section{
+.col-section .head-col,
+.head-footer{
     text-align: center;
     border-bottom: solid 1px lightgrey ;
     padding:10px 5px;
     font-size: 15px;
 }
 
-.col-sec2{
+.colonna2{
     margin:0% 5%;
 }
 
 /* contenuto colonna */
 .col-contenuto > *{
     display: block;
-    margin: 20px 0px;
+    margin: 10px 0px;
 }
 
 .price span{
     color: grey;
 }
 
+.buy a {
+    color:rgb(0, 128, 255) ;
+}
+
 hr{
     color: lightgrey;
     width: 25%;
+    
+
 }
 
 .col-contenuto ul .fas {
@@ -185,13 +193,66 @@ hr{
 
 .col-contenuto span,
 .col-contenuto p,
-.col-contenuto ul li{
+.col-contenuto ul li,
+.footer-section p{
     font-size: 14px;
 }
 
 .period{
-    color: #85919C;
+    color:#85919C
 }
+
+/* .Margini interni col-section */
+
+.period,
+.button-col{
+    margin-bottom: 40px;
+}
+
+.user,
+.archivio,
+.function,
+.buy{
+    margin-bottom: 20px;
+}
+
+.ul-title{
+        margin-top: 30px;
+}
+
+ul li{
+    margin-bottom: 30px;
+}
+
+/* footer sezione1 */
+/* .contenuto-footer > *{
+    margin: 20px 0px;
+} */
+
+.contenuto-footer{
+    margin: 20px;
+    position: relative;
+}
+
+.footer-section{
+    width: 100%;
+    border: solid 1px lightgrey;
+    margin-top: 30px;
+}
+
+.button-footer{
+    margin: 0px;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+
+}
+
+
+
+
+
+
 
 
 
