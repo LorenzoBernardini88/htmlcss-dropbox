@@ -117,7 +117,7 @@ li a{
 
 /* MAIN */
 
-/* Sezione1 */
+/* Sezione 1 "Piano Dropbox Business */
 .container-section{
     width: 70%;
     margin:auto;
@@ -193,7 +193,8 @@ hr{
 .col-contenuto p,
 .col-contenuto ul li,
 .footer-section p,
-.contenuto-sez2 p{
+.contenuto-sez2 p,
+.row p{
     font-size: 14px;
 }
 
@@ -247,8 +248,9 @@ ul li{
     right: 20px;
 }
 
-/* Sezione2 */
-.section2{
+/* Sezione 2 "Contatta Partner" */
+.section2,
+.section3{
     margin-top: 100px;
 }
 
@@ -275,6 +277,32 @@ ul li{
     background-color: white;
     border: solid 1px black;
     padding: 8px 20px;
+}
+
+/* Sezione 3 "Operazioni Dropbox Buniness" */
+
+/* -margin-top sez3 vedi css sez2 */
+
+.blocco{
+    width: 30%;
+    float:left;
+}
+
+.bl2,
+.bl5{
+    margin: 0 5%;
+}
+
+.blocco img{
+    width: 100%;
+}
+
+.row{
+    margin-top: 50px;
+}
+
+.testo-bl h4{
+    margin-bottom: 30px;
 }
 
 
