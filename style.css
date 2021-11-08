@@ -192,7 +192,8 @@ hr{
 .col-contenuto span,
 .col-contenuto p,
 .col-contenuto ul li,
-.footer-section p{
+.footer-section p,
+.contenuto-sez2 p{
     font-size: 14px;
 }
 
@@ -247,7 +248,34 @@ ul li{
 }
 
 /* Sezione2 */
+.section2{
+    margin-top: 100px;
+}
 
+.container-img,
+.contenuto-sez2{
+    width: 50%;
+    float:left;
+}
+
+.container-img img{
+    width: 100%;
+}
+
+.contenuto-sez2{
+    padding: 30px 50px;
+}
+
+.contenuto-sez2 p{
+    margin: 20px 0px;
+    line-height: 25px;
+}
+
+.button-sez2{
+    background-color: white;
+    border: solid 1px black;
+    padding: 8px 20px;
+}
 
 
 
