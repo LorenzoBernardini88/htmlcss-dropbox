@@ -167,7 +167,8 @@ label{
     margin: 10px 0px;
 }
 
-.buy a {
+.buy a,
+.section4 span a{
     color:rgb(0, 128, 255) ;
 }
 
@@ -194,7 +195,9 @@ hr{
 .col-contenuto ul li,
 .footer-section p,
 .contenuto-sez2 p,
-.row p{
+.row p,
+.section4 span a,
+.citation-partner p{
     font-size: 14px;
 }
 
@@ -304,6 +307,52 @@ ul li{
 .testo-bl h4{
     margin-bottom: 30px;
 }
+
+/* Sezione 4 "Team Sponsor" */
+
+.section4{
+    margin-top: 100px;
+}
+
+.section4 h2{
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+/* per proprietà tag "a" section4 vedi css 
+"contenuto-colonna" sezione1" */
+
+.container-sponsor{
+    width: 100vw;
+    margin-top: 50px;
+    
+}
+
+.sponsor-box1,
+.sponsor-box2,
+.citation-partner{
+    float: left;
+}
+
+.sponsor-box1,
+.sponsor-box2{
+    width: 30%;
+}
+
+.citation-partner{
+    width: 40%;
+}
+
+.logo{
+    width: 50%;
+    float: left;
+}
+
+.logo img{
+    width: 100%;
+}
+
+
 
 
 
