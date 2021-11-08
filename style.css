@@ -37,8 +37,7 @@ header{
     line-height: 60px;
 }
 
-nav,
-ul li{
+nav ul li{
     display: inline-block;
     font-size: 15px;
 }
@@ -80,7 +79,7 @@ li a{
 .container-banner .fas{
     font-size: 40px;
     color: black;
-}
+}   
     
 .titolo-banner{
     font-size: 3vw;
@@ -118,6 +117,7 @@ li a{
 
 /* MAIN */
 
+/* Sezione1 */
 .container-section{
     width: 70%;
     margin:auto;
@@ -147,7 +147,6 @@ label{
     border: solid 1px lightgrey;
     height: 1000px;
     width: 30%;
-    
 }
 
 .col-section .head-col,
@@ -168,10 +167,6 @@ label{
     margin: 10px 0px;
 }
 
-.price span{
-    color: grey;
-}
-
 .buy a {
     color:rgb(0, 128, 255) ;
 }
@@ -180,7 +175,6 @@ hr{
     color: lightgrey;
     width: 25%;
     
-
 }
 
 .col-contenuto ul .fas {
@@ -189,6 +183,10 @@ hr{
 
 .col-contenuto{
     padding: 10px 20px;
+}
+
+.col-contenuto ul li {
+    list-style: none;
 }
 
 .col-contenuto span,
@@ -226,7 +224,6 @@ ul li{
 
 /* footer sezione1 */
 
-
 .contenuto-footer{
     padding: 20px 0px 10px 20px;
     position: relative;
@@ -247,8 +244,10 @@ ul li{
     position: absolute;
     top: 20px;
     right: 20px;
-
 }
+
+/* Sezione2 */
+
 
 
 
