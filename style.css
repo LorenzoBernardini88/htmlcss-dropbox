@@ -446,12 +446,10 @@ margin: 40px 0px 60px 0px;
 .faq h6{
     margin:20px 0px;
 }
-
+/* proprietà hover sez6 */
 .faq p{
     display: none;
-    
 }
-
 .faq h6:hover+p{
     display: block;
 }
