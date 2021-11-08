@@ -197,7 +197,8 @@ hr{
 .contenuto-sez2 p,
 .row p,
 .section4 span a,
-.citation-partner p{
+.citation-partner p,
+.citation-partner span{
     font-size: 14px;
 }
 
@@ -323,11 +324,11 @@ ul li{
 "contenuto-colonna" sezione1" */
 
 .container-sponsor{
-    width: 100vw;
+    height: 30vw;
+    width: 100%;
     margin-top: 50px;
-    
 }
-
+    
 .sponsor-box1,
 .sponsor-box2,
 .citation-partner{
@@ -336,20 +337,71 @@ ul li{
 
 .sponsor-box1,
 .sponsor-box2{
+    height: 100%;
     width: 30%;
 }
 
 .citation-partner{
+    background-color: #F5F5F5;
+    height: 100%;
     width: 40%;
+    padding: 30px;
+}
+
+.citation-partner img{
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.citation-partner hr{
+    width: 15%;
+}
+
+.citation-partner p{
+margin: 40px 0px 60px 0px;        
 }
 
 .logo{
+    position: relative;
+    height: 50%;
     width: 50%;
     float: left;
 }
 
 .logo img{
-    width: 100%;
+    width: 60%;
+    filter:invert(100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* background logo sponsor-box */
+#lg1{
+    border: solid 5px #D0E9CD;
+    background-color:#A3D39B;
+}
+#lg2{
+    background-color:#61082B;
+}
+#lg3{
+    background-color:#0093CE;
+}
+#lg4{
+    background-color:#FF1D1D;
+}
+#lg5{
+    background-color:#D5001E ;
+}
+#lg6{
+    background-color:#B4D0E7 ;
+}
+#lg7{
+    background-color:#0D2481;
+}
+#lg8{
+    background-color:#FFD830 ;
 }
 
 
