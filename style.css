@@ -21,6 +21,7 @@ header{
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 10;
 }
 
 .clearfix::after
@@ -403,6 +404,32 @@ margin: 40px 0px 60px 0px;
 #lg8{
     background-color:#FFD830 ;
 }
+
+/* Sezione 5 "Agency" */
+.agency{
+    width: 100%;
+    min-height: 300px;
+    background-color: #b4d0e7;
+}
+
+.section5 h2{
+    width: 40%;
+    color: #61082B;
+}
+
+.section5{
+    position: relative;
+}
+
+.button-sez5{
+    position: absolute;
+    top:0;
+    right:0;
+    background-color: white;
+    color: black;
+    border: none;
+}
+
 
 
 
