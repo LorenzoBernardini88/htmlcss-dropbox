@@ -476,7 +476,7 @@ margin: 40px 0px 60px 0px;
 .faq p{
     display: none;
 }
-.faq .show-answer:hover+p{
+.faq h6:hover+p{
     display: block;
 }
 
