@@ -475,6 +475,7 @@ margin: 40px 0px 60px 0px;
 /* proprietà hover sez6 */
 .faq p{
     display: none;
+    margin-bottom: 10px;
 }
 .faq h6:hover+p{
     display: block;
