@@ -62,6 +62,12 @@ li a{
     color: white;
     border: none;
     padding: 8px 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+#start{
+    display:inline;
 }
 
 /* Section BANNER */
@@ -106,7 +112,7 @@ li a{
     margin-bottom: 20px;
 }
 
-.testo-banner button{
+.testo-banner .button{
     margin-bottom: 10px;
 }
 
@@ -194,6 +200,10 @@ label{
 
 .col-contenuto ul li {
     list-style: none;
+}
+
+.button-col{
+    text-align: center;
 }
 
 .col-contenuto span,
@@ -288,6 +298,7 @@ ul li{
     background-color: white;
     border: solid 1px black;
     padding: 8px 20px;
+    font-size: 14px;
 }
 
 /* Sezione 3 "Operazioni Dropbox Buniness" */
