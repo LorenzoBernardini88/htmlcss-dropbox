@@ -448,6 +448,16 @@ margin: 40px 0px 60px 0px;
     margin-bottom: 50px;
 }
 
+.faq{
+    position: relative;
+}
+
+.faq .show-answer{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
 .faq h6{
     margin:20px 0px;
 }
@@ -455,7 +465,7 @@ margin: 40px 0px 60px 0px;
 .faq p{
     display: none;
 }
-.faq h6:hover+p{
+.faq .show-answer:hover+p{
     display: block;
 }
 
