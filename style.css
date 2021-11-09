@@ -463,7 +463,7 @@ margin: 40px 0px 60px 0px;
 
 footer{
     background-color: #000;
-    color: #FFF;
+    color: #FFF;margin-top: 50px;
 }
 
 /* Per proprietà .container-footer vedi
@@ -471,6 +471,17 @@ css "Sezione BANNER" */
 
 .col-footer{
     float:left;
+}
+
+.col-footer ul li {
+    margin: 5px 0px;    
+    list-style: none;
+}
+
+.col-footer li a{
+    color: #FFF;
+    font-size: 12px;
+    text-decoration: none;
 }
 
 
