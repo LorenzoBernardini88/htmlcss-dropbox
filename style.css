@@ -465,13 +465,14 @@ footer{
     background-color: #000;
     color: #FFF;
     margin-top: 50px;
-    padding: 100px 0px;
+    padding: 100px 0px 20px 0px;
 }
 
 /* Per proprietà .container-footer vedi
 css "Sezione BANNER" */
 
 .col-footer{
+    border-bottom: oldlace;
     padding-right: 60px;
     float:left;
 }
@@ -490,6 +491,23 @@ css "Sezione BANNER" */
     font-size: 12px;
     text-decoration: none;
 }
+
+.container-footer hr{
+    width: 10%;
+    margin: 40px 0px 70px 0px;
+}
+
+.container-footer #select-leng {
+    color:#999;
+    text-decoration: none;
+    font-size: 10px;
+}
+
+.fa-sort-up{
+    vertical-align: sub;
+}
+
+
 
 
 
