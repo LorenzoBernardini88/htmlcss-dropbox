@@ -463,18 +463,25 @@ margin: 40px 0px 60px 0px;
 
 footer{
     background-color: #000;
-    color: #FFF;margin-top: 50px;
+    color: #FFF;
+    margin-top: 50px;
+    padding: 100px 0px;
 }
 
 /* Per proprietà .container-footer vedi
 css "Sezione BANNER" */
 
 .col-footer{
+    padding-right: 60px;
     float:left;
 }
 
+.col-footer ul{
+    margin-top: 20px;
+}
+
 .col-footer ul li {
-    margin: 5px 0px;    
+    margin: 3px 0px;    
     list-style: none;
 }
 
